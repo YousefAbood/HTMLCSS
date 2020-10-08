@@ -1,9 +1,15 @@
 body {
   margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+table, tr, td{
+  border: 2px solid black;
+  padding: 20px;
 }
 
 #companyName {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 10px;
   color: black;
 }
@@ -39,4 +45,18 @@ img {
 
 /* Articles */
 
+#companyArticle {
+  float: left;
+  width: 700px;
+  height: 100px;
+  margin-left: 15px;
+}
 
+
+
+/* Table */
+
+.companyTable {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
