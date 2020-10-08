@@ -1,0 +1,42 @@
+body {
+  margin: 0%;
+}
+
+#companyName {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+  color: black;
+}
+
+/* Navigation Bar Styling */
+ 
+#navigationBar {
+  color: aliceblue;
+  background-color: black;
+  height: 45px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.navigationBarUnorderedList {
+  list-style-type: none;
+  padding: 0;
+  background-color: black;
+ }
+
+.navigationBarList {
+  padding-top: 4px;
+  padding-left: 10px;
+  float: left;
+}
+
+/* Image Styling */
+
+img {
+  width: 100%;
+  height: 500px;
+}
+
+/* Articles */
+
+
