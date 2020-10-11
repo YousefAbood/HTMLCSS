@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+  </head>
+
+  <body>
+
+    <a href="index.html"><img src="resources/img/burton_logo.png"></a>
+
+    <h1>Register Page for Burton Education</h1>
+    <h3>Already have an account? <a class="link" href="login.html">Click Here To Login</a></h3>
+    
+    <form name="registercredentials" action="https://www.savatarian.com/html5/form.php" method="GET">
+      <table>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" name="username"></td>
+          <td>Position in School:</td>  
+          <td>
+            <input type="checkbox" name="st">Student
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="middleName"></td>
+          <td><br></td>
+          <td>
+            <input type="checkbox" name="te">Teacher
+          </td>
+        </tr>
+
+        <tr>
+          <td>Full Name</td>
+          <td><input type="text" name="Full Name"></td>
+          <td><br></td>
+          <td>
+            <input type="checkbox" name="ad">Adminstration
+          </td> 
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+          </td> 
+        </tr>
+        
+        <tr>
+          <td>Security Question (Color of your Eyes)</td>
+          <td>
+            <select name="securityQuestion">
+              <option value="BL">Blue</option>
+              <option value="BR">Brown</option>
+              <option value="GR">Green</option>
+              <option value="BA">Black</option>
+            </select>
+          </td> 
+        </tr>
+        
+        <tr>
+          <td>Date of Birth</td>
+          <td><input type="date" name="dateOfBirth"></td> 
+        </tr>
+
+        <tr>
+          <td>Extra Information</td>
+          <td><textarea name="extraInformation" cols="45" rows="6"></textarea></td>
+        </tr>
+        
+        <tr>
+          <td><br></td>
+          <td>
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset" />
+          </td>
+        </tr>
+
+        
+      </table>
+    </form>
+
+  </body>
+</html>

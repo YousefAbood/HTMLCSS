@@ -6,22 +6,30 @@
 
   <body>
 
-    <img src="resources/img/burton_logo.png">
+    <a href="index.html"><img src="resources/img/burton_logo.png"></a>
+
+    <h1>Login Page for Burton Education</h1>
+    <h3>Don't have an account? <a class="link" href="signup.html">Click Here To Register</a></h3>
     
-    <form>
+    <form name="logincredentials" action="https://www.savatarian.com/html5/form.php" method="GET">
       <table>
         <tr>
           <td>Username</td>
-          <td><input type="text"></td> 
+          <td><input type="text" name="loginname"></td> 
         </tr>
 
         <tr>
           <td>Password</td>
-          <td><input type="text"></td> 
+          <td><input type="password" name="password"></td> 
+        </tr>
+
+        <tr>
+          <td><br></td>
+          <td><input type="submit"></td>
         </tr>
 
       </table>
     </form>
-    
+
   </body>
 </html>

@@ -24,6 +24,10 @@ body {
   text-decoration: none;
 }
 
+.decoration {
+  text-decoration: none;
+}
+
 #mainImage {
   width: 46%;
   float: left;
