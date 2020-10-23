@@ -1,33 +1,10 @@
-@media all and (min-width: 750px) {
-  nav li {
-      display: inline-block;
-      border-right: 1px solid white;
-  }
-  section#news, section#instruments {
-      width: 50%;
-      float: left;
-      padding-right: 20px;
-  }
-}
-
-@media all and (min-width: 1150px) {
-  section#news {
-      width: 33%;
-  }
-  section#instruments {
-      width: 66%;
-  }
-  article.instrument {
-      width: 50%;
-      float: left;
-      padding-right: 20px;
-  }
-
-}
-
 
 * {
   box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: bisque;
 }
 
 body {
@@ -37,34 +14,40 @@ body {
   font-size: 18px;
 }
 
-section#content {
+#content {
   width: 1355px;
   margin: auto;
 }
 
-section#content, footer {
+footer {
   padding: 12px;
-}
-
-div#logo {
-  background-color: cyan;
 }
 
 
 img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-div#logo img {
-  margin: 0;
+#logoWrapper {
+  background-color: cyan;
   height: 200px;
+
 }
-nav ul {
+
+#logo {
+  margin-right: auto;  
+  margin-left: auto;  
+}
+nav ul{
   background-color: grey;
-  width: 100%;
-  height: 50px;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+        
+nav ul li{
+  padding: 10px;
+  border: 1px solid white;
 }
 
 nav a {
@@ -80,10 +63,17 @@ nav a:hover {
   text-decoration: none;
 }
 
-section#content h3 {
+h3 {
   color: chocolate;
-  font-size: 1.5;
   font-weight: 600;
+}
+
+#news {
+  padding: 5px;
+}
+    
+.instrument {
+  padding: 5px;
 }
 
 footer h3 {
@@ -96,3 +86,72 @@ footer {
   clear: left;
   margin: 0;
 }
+
+
+@media all and (min-width: 500px) {
+  nav ul li {
+    display: block;
+  }
+  
+  h3 {
+    font-size: 15px;
+  }
+
+  #news, #instruments {
+      width: 100%;
+      float: left;
+  }
+}
+
+@media all and (min-width: 850px) {
+  nav ul li {
+    display: inline-block;
+    border: none;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+      
+  #news, #instruments {
+    width: 50%;
+  }
+      
+}
+
+@media all and (min-width: 1100px) {
+
+  
+  nav ul li {
+    display: inline-block;
+    border: none;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  #news {
+    width: 33%;
+  }
+      
+  #instruments {
+    width: 66%;
+  }
+  
+  .instrument {
+    width: 50%;
+    float: left;
+  }
+  
+  
+}
+
+@media all and (min-width: 1200px) {
+  #wrapper {
+    width: 1200px;
+    margin: auto;
+  }
+}
+
+
